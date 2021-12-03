@@ -1,1 +1,0 @@
-powershell -ExecutionPolicy Bypass -nop -w 1 C:\Users\Public\Music\input.ps1
